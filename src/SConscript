@@ -1,5 +1,4 @@
 import os.path
-
 Import('env', 'lib_env', 'gen_env', 'tool_env', 'test_env', 'pulse_env')
 
 env.Append(CPPPATH=['#src/modules'])
